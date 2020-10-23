@@ -33,22 +33,26 @@
             "statusText": "OK"
           }
     ,
-    "clasificaciones": [
-      {
-        "nombre": "Drama",
-        "id": 1
-      },
-      {
-        "nombre": "Comedia",
-        "id": 2
-      },
-      {
-        "nombre": "Documental",
-        "id": 3
-      },
-      {
-        "nombre": "Acción",
-        "id": 4
-      }
-    ]
+    "getCaptcha": {
+  "data": {
+    "comunResponseType": {
+      "captcha": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAAjCAYAAABfLc7mAAADIklEQVR42u2aT2gTQRTGhyhFpCpFe9DeChYJVYQepFTIxUPBijWCHsSDKCLiQaToUcSLf4r0IB4EFSpepBYpIoKISKlexINKUaGIaIQqjaWVGoIav6EvdH3M7Oym6YbNvg9+JLtvJ9m+b/68nVQpUdy0DDRJGuJjVjPYBLaDXnAYnAGXwU0wAp6DD2AK/KVXUUzMKlXAH5CSlMfDrErMnZJpOl5mvQdjdB/6fi7R/en73A266P7X1fvIFbNipDVgm5hVPyNvMzgCBsHviIwSs5ZILSALLoKnYLaKhrnM4teLWYuQruT2ggw4De6BLyHM0iP5o2Nk8TYuhb1eZNFG8COEmZ/BEHWEHrAq4PeIwTXSPh8zZ2lqvgD2gA2L+B4xuEZT81dPEvPgOk2r7VVe98TgCNQKboFpUADfPAn85ZNQvTbfpnV2DhTBOzAAOnwMSYM7YMYSXw36wSR95muwP6DBO1j8fNLN7SRjbdNxzmLASIB12WRIhjqDrY2ePcYtsR6HwWn2t9xIurmNBgO9FA3PtIrW31KFBuccbYZ8YqM+BjdToVc+/0AmZqVOGgwtv/8O3hgSepAd6+uOUmfRWk9r9ajFYM0LsNUnfg4sN3zXnMXgFeCl59wYnUu8HvqMll00Kvj5RwbDwxRF457OYIoPeGKpgLPEMPv8tWLtvHiRc5deB30M+MmOG0IanHHEVzrinH523C62Lsi0vu5U//8WWfKZxqvxWBM2zplgx4/F1gXxNS0VIMEzjhEXtcGt9DjlPXdNrJ3XW5aYThY3be7zdftYjQ3W6jJ01uNir1JXDdVtC43kE4bpWHPIMKL7qHpWVP12U0eIymCtrCHWnXSD047kPTOsv8ryPBr0OXipDNY6Zeh86aSb3GdJnN5/bmPnCtSmKeBmR9QGK1p/vfFP9LiXaGVpei6SicNkbgNL1jRr10s7T3mqyHXbV+AK2FIjgxXtYpVk48OtAyxRTyQl8Sy0zlIlWt60aKQKOq/kl5nYayJgwTQpW4D1sdlh+3ecDklVPNVGlbQulnJUKBWooLpPGxlSoIhEIpFIJBJ59A9+oFLUgEKW5QAAAABJRU5ErkJggg=="
+    }
+  },
+  "status": 200,
+  "config": {
+    "method": "GET",
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "url": "http://192.168.5.165:10039/wps/portal/comprasclaro/!ut/p/z1/…rCaptchaRest=bf_keep!true=bf_model!ec451d18_ComprasyPagos==/",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    }
+  },
+  "statusText": "OK"
+}
   }
